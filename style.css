@@ -71,17 +71,11 @@ a{
     position: relative;
     top: 20px;
     line-height:2;
-    font-size:xx-large;
+    font-size:x-large;
     text-align: center;
     font-weight:700;
     z-index: -1;
     pointer-events: all;
-}
-
-
-
-.taskpage{
-    z-index: 100;
 }
 
 #home:link{
@@ -124,6 +118,7 @@ a{
     list-style-type: none;
     position: relative;
     height: auto;
+    font-weight: 550;
     padding: 12px;
     background-image: url("image\\list.png");
     /*以下禁止鼠標選取*/
