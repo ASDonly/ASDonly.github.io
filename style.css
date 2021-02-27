@@ -10,12 +10,14 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     margin: 0px;
+    height: 0px;
 }
 
 a{
     text-decoration: none;
+    cursor:pointer
 }
 
 .Bar{
@@ -42,9 +44,8 @@ a{
 
 .main{
     margin:  0 auto;
-    padding: 24px;
-    padding:64px;
-    width: 900px;
+    padding: 64px;
+    width: 720px;
     top: 72px;
     position: relative;
     pointer-events: none;
@@ -63,15 +64,24 @@ a{
 
 }
 
-.boxtwo{
+.box2{
     background-color: rgb(236, 236, 236);
     border-radius: 12px;
     padding: 5%;
     position: relative;
-    z-index: -1;
     top: 20px;
-    line-height: 2;
-    list-style-position: outside;
+    line-height:2;
+    font-size:xx-large;
+    text-align: center;
+    font-weight:700;
+    z-index: -1;
+    pointer-events: all;
+}
+
+
+
+.taskpage{
+    z-index: 100;
 }
 
 #home:link{
