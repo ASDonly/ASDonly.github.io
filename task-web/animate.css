@@ -1,0 +1,22 @@
+/*animate*/
+
+
+
+
+@keyframes list-on{
+    from{
+        right: -200px;
+    }
+    to{
+        right: 0px;
+    }
+}
+
+@keyframes list-off{
+    from{
+        right: 0px;
+    }
+    to{
+        right: -200px;
+    }
+}

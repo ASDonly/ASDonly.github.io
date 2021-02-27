@@ -1,0 +1,135 @@
+/*CSS*/
+
+
+
+
+body{
+    font-family: "微軟正黑體";
+    background-color: rgb(226, 226, 226);
+    background-image: url("image\\unnamed.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    margin: 0px;
+    height: 0px;
+}
+
+a{
+    text-decoration: none;
+    cursor:pointer
+}
+
+.Bar{
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bar{
+    font-family: "Pixelony";
+    background-color: rgb(48, 48, 48);
+    background-image: url("image\\back.png");
+    align-items: center;
+    display: flex;
+    padding: 12px;
+    letter-spacing: 10px;
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    margin: 0px;
+}
+
+.main{
+    margin:  0 auto;
+    padding: 64px;
+    width: 720px;
+    top: 72px;
+    position: relative;
+    pointer-events: none;
+}
+
+.box{
+    background-color: rgb(236, 236, 236);
+    border-radius: 12px;
+    padding: 22px;
+    height: auto;
+    width: auto;
+    float: none;
+    position: relative;
+    z-index: -1;
+    top: 20px;
+
+}
+
+.box2{
+    background-color: rgb(236, 236, 236);
+    border-radius: 12px;
+    padding: 5%;
+    position: relative;
+    top: 20px;
+    line-height:2;
+    font-size:x-large;
+    text-align: center;
+    font-weight:700;
+    z-index: -1;
+    pointer-events: all;
+}
+
+#home:link{
+    color: rgb(238, 238, 238);
+}
+
+#home:visited{
+    color: rgb(238, 238, 238);
+}
+
+#home:hover{
+    color: rgb(255, 207, 51);
+}
+
+#menu{
+    height: 50px;
+    width: 55px;
+    position: fixed;
+    right: 12px;
+    top: 20px;
+}
+
+#menu:hover{
+    content: url("image\\hover-menu.png");
+}
+
+#list{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0px 0px;
+    height: auto;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    font-size: 24px;
+    padding: 0px;
+}
+
+.list{
+    list-style-type: none;
+    position: relative;
+    height: auto;
+    font-weight: 550;
+    padding: 12px;
+    background-image: url("image\\list.png");
+    /*以下禁止鼠標選取*/
+    -moz-user-select: none; 
+    -o-user-select:none; 
+    -khtml-user-select:none; 
+    -webkit-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+}
+
+.list:hover{
+    background-image: url("image\\hover-list.png");
+}
