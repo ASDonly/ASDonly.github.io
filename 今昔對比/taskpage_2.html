@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>CRC RPG</title>
+        <link rel="icon" href="icon\rpg-game.ico"/>
+        <link rel="stylesheet" type="text/css" href="font.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="animate.css"/>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div class="Bar">
+            <div class="bar">
+                <a id="home" href="index.html">HEPHAESTUS</a>
+                <a><img src="image\menu.png" id="menu" onclick="menulistclick()"/></a>
+            </div>
+            <div style="display: none;" id="list">
+                <div class="list" id="list-home" onclick="homelink()">首頁</div>
+                <div class="list" id="list-task" onclick="tasklink()">任務</div>
+                <div class="list" id="list-shop" onclick="shoplink()">商城</div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="box">
+                <a href="task.html">
+                    <img src="image/back-arrow.png" style="height: 75px; left:285px;position: relative;">
+                </a>
+                <h1 style="text-align: center; margin: -10px; margin-top: -60px;">狙擊槍</h1>
+                <div style="text-align: left;line-height: 3;">
+                    任務編號：<br>
+                    委託者：<br>
+                    任務內容：<br>
+                    委託報酬：<br>
+                    委託人數：<br>
+                    發布日期：<br>
+                    委託者聯絡方式：<br>
+                </div>
+                <a href="taskpage_1.html">
+                    <img src="image/left_arrow.png" style="height: 75px;position: relative; left: -15%; margin-top: 16px;">
+                </a>
+                <a href="taskpage_3.html">
+                    <img src="image/right_arrow.png" style="height: 75px;position: relative; left: 15%; margin-top: 16px;">
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
