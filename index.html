@@ -19,12 +19,76 @@
                 <div class="list" id="list-home" onclick="homelink()">首頁</div>
                 <div class="list" id="list-task" onclick="tasklink()">任務</div>
                 <div class="list" id="list-shop" onclick="shoplink()">商城</div>
+                <div class="list" id="list-about" onclick="aboutlink()">關於</div>
             </div>
         </div>
         <div class="main">
             <div class="box">
-                <h1 style="text-align: center; margin: 0;">歡迎到來!</h1>
+                <h1 style="text-align: center; margin: 0; margin-bottom: 32px;">歡迎到來!</h1>
+                <div class="btnbox">
+                    <div class="btn" id="task-btn" onclick="tasklink()">
+                        <img>
+                        <b>任務</b>
+                    </div>
+                    <div class="btn" id="shop-btn" onclick="shoplink()">
+                        <img>
+                        <b>商城</b>
+                    </div>
+                </div>
+                <div class="Notice">
+                    <div class="noticeBar"><b>公&emsp;告&emsp;欄</b></div>
+                    <div class="notice1">
+                        <div class="noticeDate" id="N1D"></div><div class="notice" id="N1L" onclick="noticeClick()"></div>
+                    </div>
+                    <div class="notice2">
+                        <div class="noticeDate" id="N2D"></div><div class="notice" id="N2L"  onclick="noticeClick()"></div>
+                    </div>
+                    <div class="notice1">
+                        <div class="noticeDate" id="N3D"></div><div class="notice" id="N3L"  onclick="noticeClick()"></div>
+                    </div>
+                    <div class="notice2">
+                        <div class="noticeDate" id="N4D"></div><div class="notice" id="N4L"  onclick="noticeClick()"></div>
+                    </div>
+                    <div class="notice1">
+                        <div class="noticeDate" id="N5D"></div><div class="notice" id="N5L"  onclick="noticeClick()"></div>
+                    </div>
+                    <div class="notice2">
+                        <div class="noticeDate" id="N6D"></div><div class="notice" id="N6L"  onclick="noticeClick()"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="noticeIn">
+                <div id="N1In" style="display: none;">
+                    <div id="N1T" style="font-size: xx-large;"></div>
+                    <div id="N1C"></div>
+                </div>
+                <div id="N2In" style="display: none;">
+                    <div id="N2T" style="font-size: xx-large;"></div>
+                    <div id="N2C"></div>
+                </div>
+                <div id="N3In" style="display: none;">
+                    <div id="N3T" style="font-size: xx-large;"></div>
+                    <div id="N3C"></div>
+                </div>
+                <div id="N4In" style="display: none;">
+                    <div id="N4T" style="font-size: xx-large;"></div>
+                    <div id="N4C"></div>
+                </div>
+                <div id="N5In" style="display: none;">
+                    <div id="N5T" style="font-size: xx-large;"></div>
+                    <div id="N5C"></div>
+                </div>
+                <div id="N6In" style="display: none;">
+                    <div id="N6T" style="font-size: xx-large;"></div>
+                    <div id="N6C"></div>
+                </div>
+            </div>
+            <div id="cover" onclick="coverClick()">
+            
             </div>
         </div>
+        <!--以下為js引入文件-->
+        <script type="text/javascript" src="data.js"></script>
+        <script type="text/javascript" src="write.js"></script>
     </body>
 </html>
