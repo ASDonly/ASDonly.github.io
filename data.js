@@ -6,22 +6,22 @@ var data =
         {
             title:"任務申請制度更新",
             date:"4/9",
-            content:"內文內文"
+            content:"申請委託及任務管道已移至GOOGLE表單<br>繼日起若要申請任務即委託請至新管道"
         },
         {
-            title:"&thinsp;",
-            date:"&thinsp;",
-            content:"&thinsp;"
+            title:"新增公告欄位",
+            date:"4/16",
+            content:"於網站封面新增公告欄位<br>以便於得知網站最新資訊"
         },
         {
-            title:"&thinsp;",
-            date:"&thinsp;",
-            content:"&thinsp;"
+            title:"商品上架",
+            date:"4/16",
+            content:"商城中的書籍出租上架5項書籍"
         },
         {
-            title:"&thinsp;",
-            date:"&thinsp;",
-            content:"&thinsp;"
+            title:"新增關於頁面",
+            date:"4/16",
+            content:"於右上角引索中新增關於頁面<br>描述了所有關於此網頁之規則及資訊"
         },
         {
             title:"&thinsp;",
